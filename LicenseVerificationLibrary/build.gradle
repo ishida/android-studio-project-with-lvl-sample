@@ -6,11 +6,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:0.6.+'
     }
 }
-apply plugin: 'android'
-
-repositories {
-    mavenCentral()
-}
+apply plugin: 'android-library'
 
 android {
     compileSdkVersion 17
@@ -18,11 +14,6 @@ android {
 
     defaultConfig {
         minSdkVersion 3
-        targetSdkVersion 17
+        targetSdkVersion 15
     }
-}
-
-dependencies {
-    compile 'com.android.support:support-v4:+'
-    compile project(':LicenseVerificationLibrary')
 }
