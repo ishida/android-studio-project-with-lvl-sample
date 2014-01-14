@@ -1,6 +1,8 @@
 # Android Studio Project Sample With LVL
 
-Android Studio project sample with LVL (License Verification Library / play_licensing)
+Android Studio project sample with LVL (License Verification Library / play_licensing).
+
+See also [android-easy-lvl](https://github.com/ishida/android-easy-lvl).
 
 ## Installation
 
